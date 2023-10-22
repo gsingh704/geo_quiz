@@ -1,0 +1,70 @@
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    background-color: #111;
+    color: white;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.game-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+
+}
+
+.game-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100%;
+    height: 180px;
+
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.game-button:hover {
+    opacity: 0.8;
+    scale: 1.1;
+}
+
+.game-button:active {
+    opacity: 0.6;
+    scale: 1.2;
+}
+
+.game-button .iconify--mdi {
+    font-size: 80px;
+}
+
+.flag-button {
+    background-color: #e43b3b;
+}
+
+.capital-button {
+    background-color: #3be46a;
+}
+
+.population-button {
+    background-color: #3b3be4;
+}
+
+.todo-button {
+    background-color: #e4e43b;
+}
